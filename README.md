@@ -34,8 +34,7 @@ obfuscator-llvm-9.0
 
 `/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/`
 
-3、复制llvm编译出来的文件到ndk目录下
-`Library/Android/sdk/cmake/3.22.1/bin/build/bin/` 复制当前目录下刚刚删除的文件到 ndk目录下
+3、`Library/Android/sdk/cmake/3.22.1/bin/build/bin/` 复制当前目录下刚刚删除所对应的文件到 ndk目录下
 
 4、在android studio 中编译 jni工程，如果出现找不到 .h文件的错误
 在编译结果目录下复制对应的 .h文件到ndk目录下,哪个文件找不到就复制哪一个
